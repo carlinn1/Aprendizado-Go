@@ -3,21 +3,26 @@ package main
 import "fmt"
 
 func main() {
+
+	// Tipos de dados
 	var inteiro int
 	var flutuante float64
 	var booleano bool
 	var texto string
 
+	// Atribuindo valores
 	fmt.Println("Valor do inteiro:", inteiro)
 	fmt.Println("Valor do flutuante:", flutuante)
 	fmt.Println("Valor do booleano:", booleano)
 	fmt.Println("Valor do texto:", texto)
 
+	// Atribuindo valores específicos
 	var nome string = "Carlos"
 	var idade int = 30
 	var altura float64 = 1.75
 	var estudante bool = true
 
+	// Imprimindo os valores
 	fmt.Println("Nome:", nome)
 	fmt.Println("Idade:", idade)
 	fmt.Println("Altura:", altura)
@@ -28,6 +33,7 @@ func main() {
 		return a + b
 	}
 
+	// Chamando a função de soma
 	resultado := soma(5, 3)
 	fmt.Println("Resultado da soma:", resultado)
 
